@@ -1,0 +1,55 @@
+*{
+   font-family: system-ui, -apple-system;  
+}
+
+.home-title h1 {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 4.8rem;
+    color: #38393a;
+    padding: 0;
+    margin: 0;
+}
+
+.home-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500px;
+    font-size: 2.5rem;
+    color: rgb(156 163 175);
+    padding: 0;
+    margin: 0;
+}
+.home-title h3 {
+    padding: 0;
+    margin: 10px 0px;
+    color: rgb(156 163 175);
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.home{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img{
+    border: 5px solid #183D3D;
+    height: 377px;
+    width: 500px;
+    border-radius: 7px;
+    margin-top: 40px;
+}
+
+.img-h{
+    height: 200px;
+}
+
+#contact{
+    display: flex;
+}
+
+.copyright{
+    text-align: center;
+    width: 100%;
+    padding: 20px 0px;
+    font-weight: 300;
+}
